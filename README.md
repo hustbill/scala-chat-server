@@ -68,3 +68,9 @@ It implements the ‘chatManagement’ function which responds to two different 
 ‘GetChatLog’. It simply gets the session for the user (the sender of the message) and routes the message to this
 session. Here we also use the ‘forward’ function to make sure the original sender reference is passed along to
 allow the end receiver to reply back directly  
+
+##Chat storage: Backed with simple in-memory
+To keep it simple we implement the persistent storage, with a in-memory Vector, i.e. it will not be persistent. We
+start by creating a ‘ChatStorage’ trait allowing us to have multiple different storage backend. For example one
+in-memory and one persistent.  
+
