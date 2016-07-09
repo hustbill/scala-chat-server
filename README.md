@@ -1,4 +1,4 @@
-# akka-chat
+# Scala-chat
 A simple chat server using Akka and Scala.
 
 ## 1. First Version [Commit](https://github.com/fpinscala-muc/akka-chat/commit/082ba8b351403314ccc229882af45a708c06833e)
@@ -49,6 +49,3 @@ and yet another line' http://localhost:8080/contrib/Michael
 
 The [Akka HTTP](http://doc.akka.io/docs/akka-stream-and-http-experimental/1.0-M4/scala/http/index.html) endpoints are defined in [ChatRoutes](src/main/scala/org/sandbox/chat/http/ChatRoutes.scala).
 
-
-![Alt text](https://snap-ci.com/fpinscala-muc/akka-chat/branch/master/build_image)
-Details: https://snap-ci.com/fpinscala-muc/akka-chat/branch/master
